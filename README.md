@@ -1,21 +1,21 @@
 # Text-Image-Generation
-# 🖼️ Text-to-Image Generation with Stable Diffusion XL (LoRA) and Flask
+# Text-to-Image Generation with Stable Diffusion XL (LoRA) and Flask
 
 This project is a local Flask-based web application for generating images from text prompts using **Stable Diffusion XL 1.0** with LoRA (Low-Rank Adaptation) fine-tuning. It supports GPU-accelerated inference and displays previously generated images in a gallery format.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔥 **GPU-based** image generation with SDXL + LoRA
-- 🖼️ Auto-gallery view of generated images by date
-- 📝 HTML form for prompt input
-- 🧹 Clear gallery feature
-- 📦 Fully local, no external API required
+- **GPU-based** image generation with SDXL + LoRA
+- Auto-gallery view of generated images by date
+- HTML form for prompt input
+- Clear gallery feature
+- Fully local, no external API required
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 Text-Image-Generation/
 ├── app.py # Flask application backend
@@ -35,16 +35,16 @@ Edit
 
 ---
 
-## 🧠 Models Used
+## Models Used
 
 1. **Stable Diffusion XL Base 1.0**  
 2. **BetterFaces-LoRA v1** (for enhanced facial rendering)
 
 ---
 
-## 📥 How to Download Models
+## How to Download Models
 
-### 🔹 1. `stable-diffusion-xl-base-1.0`
+### 1. `stable-diffusion-xl-base-1.0`
 
 - Go to the [Hugging Face model page](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
 - Click “⋯” ➜ **Download model**
@@ -59,7 +59,7 @@ pgsql
 Copy
 Edit
 models/Stable-diffusion/stable-diffusion-xl-base-1.0/
-🔹 2. SDXL_BetterFaces-LoRA_v1.safetensors
+2. SDXL_BetterFaces-LoRA_v1.safetensors
 Visit Civitai - SDXL BetterFaces LoRA
 
 Click Download for the .safetensors version
@@ -90,14 +90,15 @@ bash
 Copy
 Edit
 pip install -r requirements.txt
-▶️ Running the App
+
+Running the App
 bash
 Copy
 Edit
 python app.py
 Then open http://localhost:5000 in your browser.
 
-📌 Notes
+Notes
 Requires CUDA-enabled GPU for optimal performance.
 
 Ensure model paths are set correctly in app.py:
@@ -112,9 +113,9 @@ Generated images are stored under /generated/YYYY-MM-DD/.
 <img width="1024" height="1024" alt="20cf4bf52cbe48c4812e2ac368bb38b3" src="https://github.com/user-attachments/assets/c99ddff5-da68-4a9b-a8e7-9c67bc16ffb8" />
 
 
-🛡️ License
+License
 Open Source
 
-👤 Author
+Author
 Chiru
 Santosh
