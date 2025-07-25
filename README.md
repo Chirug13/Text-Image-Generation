@@ -1,5 +1,3 @@
-<img width="1024" height="1024" alt="5caec095df2745d08e28b128e4e15b6f" src="https://github.com/user-attachments/assets/676e747b-51bf-412b-a6d2-33e1649e4382" />Text-Image-Generation
-
 **Text-to-Image Generation using Stable Diffusion XL (SDXL) + LoRA in Flask**
 
 This project is a local Flask-based application that converts text prompts into AI-generated images using the **Stable Diffusion XL Base 1.0** model and **BetterFaces LoRA** for enhanced face quality. It runs entirely offline on your GPU machine and saves images into a gallery structure by date.
