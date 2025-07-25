@@ -109,10 +109,11 @@ model_path = "D:/Redhats/AI_Image_Generation/models/Stable-diffusion/stable-diff
 lora_path  = "D:/Redhats/AI_Image_Generation/models/Lora/SDXL_BetterFaces-LoRA_v1.safetensors"
 Generated images are stored under /generated/YYYY-MM-DD/.
 
-🖼️ Screenshot
+<img width="1024" height="1024" alt="20cf4bf52cbe48c4812e2ac368bb38b3" src="https://github.com/user-attachments/assets/c99ddff5-da68-4a9b-a8e7-9c67bc16ffb8" />
+
 
 🛡️ License
-MIT License (or your preferred license)
+Open Source
 
 👤 Author
 Chiru
